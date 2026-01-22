@@ -1,0 +1,21 @@
+@use 'base/reset';
+@use 'base/typography';
+@use 'base/variables';
+@use 'layout/header';
+@use 'components/buttons';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: var(--font-poppins);
+
+}
+
+body {
+    min-height: 100dvh;
+    background-color: #fff;
+}

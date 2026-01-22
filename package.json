@@ -1,0 +1,19 @@
+{
+  "name": "jadoo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "sass src/scss/main.scss dist/css/style.css",
+    "watch:css": "sass --watch src/scss/main.scss dist/css/style.css",
+    "build:img": "xcopy /s /y src\\images\\ dist\\images\\"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "sass": "^1.97.2"
+  }
+}

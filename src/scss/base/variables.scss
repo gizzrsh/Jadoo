@@ -1,0 +1,41 @@
+:root {
+    // Цвета
+    /* Основные брендовые цвета (Primary & Secondary) */
+    --color-primary: #181E4B;    /* Темно-синий, заголовки (1st) */
+    --color-secondary: #DF6951;  /* Коралловый, акценты/кнопки */
+    --color-accent-yellow: #F1A501; /* Желтый (кнопка Play/Highlight) */
+    --color-accent-purple: #8A79DF; /* Светло-фиолетовый декор */
+    --color-accent-blue: #2196F3;   /* Ярко-синий (d5) */
+
+    /* Цвета текста */
+    --text-heading: #1E1D4C;     /* Цвет заголовков */
+    --text-main: #5E6282;        /* Основной текст (серый) */
+    --text-dark: #212832;        /* Вспомогательный темный (1st/2nd) */
+    --text-muted: #84829A;       /* Текст описаний (text 2) */
+    --text-light: #39425D;       /* Альтернативный цвет текста */
+
+    /* Фоновые цвета и интерфейс */
+    --bg-white: #FFFFFF;
+    --bg-light: #F5F5F5;         /* Круги и мягкие фоны */
+    --bg-decorative: #DFD7F9;    /* Light color (пятна под текстом) */
+    --border-light: #F7F7F7;
+    --color-gray-300: #E5E5E5;   /* 3rd color */
+
+    /* Градиенты */
+    --gradient-primary: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    --gradient-secondary: linear-gradient(180deg, #747DEF 0%, #5E3BE1 100%);
+    
+    /* Декоративный угловой градиент (сложный) */
+    --gradient-angular: conic-gradient(
+        from 180deg, 
+        #B8D2F1, #F289AA, #C68BF0, #D164DA, #C963E8, 
+        #BFC2E8, #FFC999, #D0D8C9, #BAD0F1, #CED8CB
+    );
+
+    // Шрифты
+    --font-roboto: 'Roboto', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-opensans: 'Open Sans', sans-serif;
+    --font-volkhov: 'Volkhov', serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+}
