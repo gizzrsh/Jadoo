@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass src/scss/main.scss dist/css/style.css && xcopy /y src\\html\\index.html dist\\ && xcopy /s /y src\\images\\ dist\\images\\",
+    "build": "sass src/scss/main.scss dist/css/style.css && xcopy /y src\\html\\index.html dist\\ && xcopy /y src\\js\\script.js dist\\js && xcopy /s /y src\\images\\ dist\\images\\",
     "build:css": "sass src/scss/main.scss dist/css/style.css",
     "watch:css": "sass --watch src/scss/main.scss dist/css/style.css",
     "build:img": "xcopy /s /y src\\images\\ dist\\images\\"
