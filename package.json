@@ -7,14 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sass src/scss/main.scss dist/css/style.css && xcopy /y src\\html\\index.html dist\\ && xcopy /y src\\js\\script.js dist\\js && xcopy /s /y src\\images\\ dist\\images\\",
     "build:css": "sass src/scss/main.scss dist/css/style.css",
-    "watch:css": "sass --watch src/scss/main.scss dist/css/style.css",
-    "build:img": "xcopy /s /y src\\images\\ dist\\images\\"
+    "build:img": "xcopy /s /y src\\images\\ dist\\images\\",
+    "build:js": "xcopy /y src\\js\\script.js dist\\js",
+    "watch:css": "sass --watch src/scss/main.scss dist/css/style.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "sass": "^1.97.2"
+    "sass": "^1.97.2",
+    "scss-reset": "^1.4.6"
   }
 }

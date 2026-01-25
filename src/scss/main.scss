@@ -1,22 +1,14 @@
-@use 'base/reset';
+@use '../../node_modules/scss-reset/scss-reset.scss';
 @use 'base/typography';
 @use 'base/variables';
 @use 'layout/header';
 @use 'layout/hero';
 @use 'components/buttons';
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html{
+html {
     font-family: var(--font-poppins);
-
 }
 
-body {
-    min-height: 100dvh;
-    background-color: #fff;
+.hidden {
+    overflow: hidden;
 }

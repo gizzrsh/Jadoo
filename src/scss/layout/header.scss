@@ -1,21 +1,22 @@
 %header-text {
     font-family: var(--font-roboto);
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 1.25rem;
     color: var(--text-dark);
     text-decoration: none;
 }
 .header {
-    padding: 49px 0 18px 0;
+    position: relative;
+    z-index: 50;
+    padding-top: 3.0625rem;
     &__inner {
-        max-width: 1140px;
-        margin: 0 auto;
+        max-width: calc(72.5rem + 0.625rem * 2);
+        margin-inline: auto;
+        padding-inline: 0.625rem;
     }
 
     &__content {
-        padding: 0 10px;
-        
         display: flex;
         align-items: center;
     }
@@ -27,10 +28,10 @@
     &__menu {
         display: flex;
         align-items: center;
-        gap: 86px;
+        gap: 5.375rem;
         &-list {
             display: flex;
-            gap: 52px;
+            gap: 3.75rem;
             list-style: none;
         }
         &-link {
@@ -47,7 +48,7 @@
     &__actions {
         display: flex;
         align-items: center;
-        gap: 42px;
+        gap: 2.625rem;
         &-login {
             @extend %header-text;
         }
@@ -55,8 +56,8 @@
             @extend %header-text;
             box-sizing: border-box;
             border: 1px solid var(--text-dark);
-            border-radius: 5px;
-            padding: 9px 22px;
+            border-radius: 0.3125rem;
+            padding: 0.5625rem 1.375rem;
         }
         &-lang {
             @extend %header-text;
@@ -73,12 +74,13 @@
     }
 }
 
-@media (max-width: 1024px) {
+// max-width: 1024px
+@media (max-width: 64rem) {
     .header {
-        padding: 20px 0;
+        padding: 1.25rem 0;
         &__content {
             justify-content: space-between;
-            gap: 12px;
+            gap: 0.75rem;
         }
         &__logo {
             margin: 0;
@@ -90,11 +92,12 @@
             top: 0;
             right: -100%;
             z-index: 40;
-            gap: 30px;
+            gap: 1.875rem;
             width: 100%;
             height: 100vh;
             background: var(--gradient-secondary);
-            padding-top: 100px;
+            padding-top: 6.25rem;
+            padding-bottom: 3.125rem;
 
             flex-direction: column;
             justify-content: flex-start;
@@ -103,14 +106,38 @@
 
             transition: all 0.2s;
             &-list {
+                height: 100%;
                 flex-direction: column;
             }
             &-link {
                 width: 100%;
                 font-size: 21px;
+                color: var(--text-white);
             }
             &--active {
                 right: 0;
+            }
+        }
+        &__actions {
+            &-login {
+                color: var(--text-white)
+            }
+            &-register {
+                @extend %header-text;
+                box-sizing: border-box;
+                border: 1px solid var(--text-white);
+                color: var(--text-white);
+                border-radius: 0.3125rem;
+                padding: 0.5625rem 1.375rem;
+            }
+            &-lang {
+                @extend %header-text;
+                display: inline-flex;
+                align-items: center;
+                margin-right: auto;
+                background: url('/dist/images/icons/arrow_down_white.svg') no-repeat right center;
+                color: var(--text-white);
+                padding-right: 20px;
             }
         }
 
@@ -132,11 +159,14 @@
                 display: block;
                 width: 100%;
                 height: 2px;
-                background-color: #000;
+                background-color: var(--text-dark);
                 transition: transform 0.3s ease, opacity 0.3s ease, top 0.3s ease;
                 position: relative;
             }
         &--active {
+            span {
+                background-color: var(--text-white);
+            }
             span:first-child {
                 transform: rotate(45deg);
                 top: 8px
