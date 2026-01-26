@@ -40,7 +40,7 @@
         span {
             position: relative;
             &::after {
-                content: url(/dist/images/hero/decore-text.svg);
+                content: url(../images/hero/decore-text.svg);
 
                 position: absolute;
                 right: 20%;
