@@ -36,6 +36,19 @@
         line-height: 5.56rem;
         letter-spacing: -4%;
         margin-bottom: 1.88rem;
+
+        span {
+            position: relative;
+            &::after {
+                content: url(/dist/images/hero/decore-text.svg);
+
+                position: absolute;
+                right: 20%;
+                bottom: 0;
+                left: -20%;
+                z-index: -1;
+            }
+        }
     }
 
     &__description {
@@ -128,6 +141,12 @@
         &__title {
             line-height: 3rem;
             margin-bottom: 1rem;
+            
+            span {
+                &::after {
+                    display: none;
+                }
+            }
         }
         &__description {
             margin-bottom: 1rem;
