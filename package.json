@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prebuild": "mkdir -p dist/css dist/js dist/images",
     "build": "npm run build:css && npm run build:html && npm run build:js && npm run build:img",
     "build:css": "sass src/scss/main.scss dist/css/style.css --style=compressed",
     "build:html": "cp src/index.html dist/",
