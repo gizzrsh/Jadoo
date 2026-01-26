@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prebuild": "mkdir -p dist/css dist/js dist/images",
+    "prebuild": "rimraf dist && mkdirp dist/css dist/js dist/images",
     "build": "npm run build:css && npm run build:html && npm run build:js && npm run build:img",
     "build:css": "sass src/scss/main.scss dist/css/style.css --style=compressed",
-    "build:html": "cp src/index.html dist/",
-    "build:js": "cp src/js/script.js dist/js/",
-    "build:img": "cp -r src/images/. dist/images/",
-    "clean": "rm -rf dist",
+    "build:html": "cpx src/index.html dist",
+    "build:js": "cpx src/js/script.js dist/js",
+    "build:img": "cpx src/images/**/* dist/images",
+    "clean": "rimraf dist",
     "watch:css": "sass --watch src/scss/main.scss dist/css/style.css"
   },
   "keywords": [],
@@ -18,6 +18,9 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "cpx": "^1.5.0",
+    "mkdirp": "^3.0.1",
+    "rimraf": "^6.1.2",
     "sass": "^1.97.2",
     "scss-reset": "^1.4.6"
   }
