@@ -3,6 +3,7 @@
 @use 'base/variables';
 @use 'layout/header';
 @use 'layout/hero';
+@use 'layout/services';
 @use 'components/buttons';
 
 html {
@@ -11,4 +12,21 @@ html {
 
 .hidden {
     overflow: hidden;
+}
+
+.category {
+    color: var(--text-main);
+    font-size: clamp(1rem, 5vw, 1.13rem);
+    font-weight: 600;
+    line-height: 1.69rem;
+    text-transform: uppercase;
+}
+
+.title {
+    color: var(--text-heading);
+    font-size: clamp(2rem, 5vw, 3.13rem);
+    font-weight: 700;
+    font-family: var(--font-volkhov);
+    line-height: 4.06rem;
+    text-transform: capitalize;
 }
