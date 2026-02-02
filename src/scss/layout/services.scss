@@ -1,6 +1,6 @@
 .services {
     padding-top: 6.06rem;
-    margin-bottom: 7.69rem;
+    padding-bottom: 7.69rem;
     position: relative;
     &::after {
         content: '';
@@ -19,13 +19,12 @@
             margin-inline: auto;
             padding-inline: 0.625rem;
             position: relative;
-            &::after {
-            }
 		}
 
 		&__category {
             display: block;
             text-align: center;
+            text-transform: uppercase;
 		}
 
 		&__title {
@@ -95,7 +94,7 @@
 @media (max-width: 68.75rem) {
     .services {
         padding-top: 2rem;
-        margin-bottom: 2rem;
+        padding-bottom: 4rem;
         &::after {
             display: none;
         }

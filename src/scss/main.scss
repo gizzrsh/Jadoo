@@ -4,6 +4,7 @@
 @use 'layout/header';
 @use 'layout/hero';
 @use 'layout/services';
+@use 'layout/destinations';
 @use 'components/buttons';
 
 html {
@@ -19,7 +20,6 @@ html {
     font-size: clamp(1rem, 5vw, 1.13rem);
     font-weight: 600;
     line-height: 1.69rem;
-    text-transform: uppercase;
 }
 
 .title {
