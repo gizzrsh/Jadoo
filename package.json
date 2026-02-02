@@ -6,7 +6,7 @@
   "scripts": {
     "prebuild": "rimraf dist && mkdirp dist/css dist/js dist/images",
     "build": "npm run build:css && npm run build:html && npm run build:js && npm run build:img",
-    "build:css": "sass src/scss/main.scss dist/css/style.css --style=compressed",
+    "build:css": "sass src/scss/main.scss dist/css/style.css --style=compressed && sass src/scss/main.scss src/css/style.css --style=compressed",
     "build:html": "cpx src/index.html dist",
     "build:js": "cpx src/js/script.js dist/js",
     "build:img": "cpx \"src/images/**/*\" dist/images/",
