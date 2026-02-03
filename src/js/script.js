@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+
+    // burger menu
     const burgerBtn = document.getElementById('burgerBtn');
     const headerMenu = document.querySelector('.header__menu');
 
@@ -7,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         burgerBtn.classList.toggle('header__burger--active');
         document.body.classList.toggle('hidden');
     })
+    // burger menu
 
     // services__card--active
     const servicesCards = document.querySelectorAll('.services__card'); 
@@ -19,5 +22,14 @@ document.addEventListener('DOMContentLoaded', () => {
             card.classList.add('services__card--active');
         })
     });
+    // services__card--active
 
+    // ongoing modal
+    const favoriteBtn = document.getElementById('favoriteBtn');
+    const ongoingModal = document.getElementById('ongoingModal');
+
+    favoriteBtn.addEventListener('click', function(e) {
+        ongoingModal.classList.toggle('book-trip__modal--active');
+    });
+    // ongoing modal
 });
