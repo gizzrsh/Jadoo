@@ -83,7 +83,7 @@
     &__button {
         &-next, &-prev {
             position: absolute;
-            left: calc(100% + 40px);
+            right: 0;
             z-index: 10;
             width: 40px;
             height: 40px;

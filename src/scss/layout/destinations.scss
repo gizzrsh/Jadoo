@@ -94,7 +94,7 @@
     }
 }
 
-@media (max-width: 66rem) {
+@media (max-width: 71em) {
     .destinations {
         &__inner {
             overflow-x: hidden;
@@ -107,7 +107,12 @@
         &__card {
             &:last-child {
                 margin-left: 0;
+                &::after {
+                    content: '';
+                    display: none
+                }
             }
+
         }
     }
 }
