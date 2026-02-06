@@ -28,8 +28,31 @@ document.addEventListener('DOMContentLoaded', () => {
     const favoriteBtn = document.getElementById('favoriteBtn');
     const ongoingModal = document.getElementById('ongoingModal');
 
-    favoriteBtn.addEventListener('click', function(e) {
+    favoriteBtn.addEventListener('click', function() {
         ongoingModal.classList.toggle('book-trip__modal--active');
     });
     // ongoing modal
+
+    // swiper
+    const swiper = new Swiper('.testimonials__swiper', {
+        direction: 'vertical',
+        autoHeight: false,
+        effect: 'cards',
+        cardsEffect: {
+            rotate: false,
+            slideShadows: false,
+        },
+        grabCursor: true,
+
+        pagination: {
+            el: '.testimonials__swiper-pagination',
+            clickable: true,
+            horizontalClass: 'swiper-pagination-horizontal',
+        },
+        navigation: {
+            nextEl: '.testimonials__button-next',
+            prevEl: '.testimonials__button-prev',
+        },
+    });
+    // swiper
 });

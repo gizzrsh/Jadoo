@@ -23,5 +23,8 @@
     "rimraf": "^6.1.2",
     "sass": "^1.97.2",
     "scss-reset": "^1.4.6"
+  },
+  "dependencies": {
+    "swiper": "^12.1.0"
   }
 }

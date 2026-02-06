@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400&family=Volkhov:wght@700&display=swap" rel="stylesheet">
@@ -188,11 +194,59 @@
                 </div>
             </div>
         </section>
+        <section class="testimonials">
+            <div class="testimonials__inner">
+                <div class="testimonials__header">
+                    <span class="testimonials__category category">Testimonials</span>
+                    <h2 class="testimonials__title title">What people say about Us.</h2>
+                    <!-- Если нужна пагинация -->
+                    <div class="testimonials__swiper-pagination"></div>
+                </div>
+                
+                <div class="testimonials__swiper swiper">
+                    <!-- Дополнительная требуемая оболочка -->
+                    <div class="testimonials__swiper-wrapper swiper-wrapper">
+                        <!-- Слайды -->
+                        <div class="testimonials__swiper-slide swiper-slide">
+                            <div class="testimonials__swiper-text swiper-slide-text">
+                                <p class="testimonials__swiper-testimonail swiper-slide-testimonail">
+                                    “On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”
+                                </p>
+                                <span class="testimonials__swiper-author swiper-slide-author">Mike Taylor</span>
+                                <span class="testimonials__swiper-location swiper-slide-location">Lahore, Pakistan</span>
+                            </div>
+                        </div>
+                        <div class="testimonials__swiper-slide swiper-slide">
+                            <div class="testimonials__swiper-text swiper-slide-text">
+                                <p class="testimonials__swiper-testimonail swiper-slide-testimonail">
+                                    “On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”
+                                </p>
+                                <span class="testimonials__swiper-author swiper-slide-author">Chris Thomas</span>
+                                <span class="testimonials__swiper-location swiper-slide-location">CEO of Red Button</span>
+                            </div>
+                        </div>
+                        <div class="testimonials__swiper-slide swiper-slide">
+                            <div class="testimonials__swiper-text swiper-slide-text">
+                                <p class="testimonials__swiper-testimonail swiper-slide-testimonail">
+                                    <!-- “On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.” -->
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptatum! Facere blanditiis sunt provident pariatur ipsam soluta esse sed quis!
+                                </p>
+                                <span class="testimonials__swiper-author swiper-slide-author">Mike Taylor</span>
+                                <span class="testimonials__swiper-location swiper-slide-location">Lahore, Pakistan</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Кнопки навигации -->
+                    <div class="testimonials__button-next"><img src="images/testimonials/swiper-arrow.svg" alt=""></div>
+                    <div class="testimonials__button-prev"><img src="images/testimonials/swiper-arrow.svg" alt=""></div>
+                </div>
+            </div>
+        </section>
     </main>
 
 
 
 
-    <script src="js/script.js"></script>
+    <script type="module" src="js/script.js"></script>
 </body>
 </html>
