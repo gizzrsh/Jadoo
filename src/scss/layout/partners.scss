@@ -45,6 +45,11 @@
         }
     }
 }
+@media (max-width: 48rem) {
+    .partners {
+        padding-bottom: 6rem;
+    }
+}
 @media (max-width: 27rem) {
     .partners {
         &__list {

@@ -1,0 +1,33 @@
+<svg viewBox="0 0 264 351.522" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="264.000000" height="351.521729" fill="none" customFrame="#000000">
+	<mask id="mask_1" width="264.000000" height="351.521729" x="0.000000" y="0.000000" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_alpha)">
+			<path id="Rectangle 154" d="M240 0C253.255 0 264 10.7452 264 24L264 351.522L50 351.522C22.3858 351.522 0 329.136 0 301.522L0 0L240 0Z" fill="url(#paint_linear_4)" fill-rule="evenodd" />
+			<path id="Rectangle 154" d="M1 1L240 1C243.176 1 246.12 1.56151 248.83 2.68452C251.541 3.80728 254.018 5.49129 256.263 7.73654C258.509 9.98229 260.193 12.4606 261.316 15.1714C262.439 17.8818 263 20.8247 263 24L263 350.522L50 350.522C43.2353 350.522 36.9658 349.326 31.1916 346.935C25.4162 344.543 20.1363 340.954 15.3518 336.17C10.5681 331.386 6.98023 326.107 4.58827 320.333C2.19609 314.558 1 308.288 1 301.522L1 1ZM0 1L0 0L240 0C253.255 0 264 10.7452 264 24L264 351.522L50 351.522C22.3858 351.522 0 329.136 0 301.522L0 1Z" fill="rgb(98,70,229)" fill-rule="evenodd" />
+		</g>
+	</mask>
+	<defs>
+		<linearGradient id="paint_linear_4" x1="187.239136" x2="5.2321167" y1="9.86233902" y2="354.28656" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(116,125,239)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(94,59,225)" offset="1" stop-opacity="1" />
+		</linearGradient>
+		<filter id="pixso_custom_mask_type_alpha">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+		</filter>
+	</defs>
+	<g id="Mask Group" opacity="0.100000001" mask="url(#mask_1)">
+		<g id="Group 42">
+			<circle id="Ellipse 19" cx="239.015015" cy="178.319946" r="92.3033371" fill="rgb(196,196,196)" fill-opacity="0" />
+			<circle id="Ellipse 19" cx="239.015015" cy="178.319946" r="91.8033371" stroke="rgb(98,70,229)" stroke-width="1.000000" />
+			<circle id="Ellipse 20" cx="231.727631" cy="168.603851" r="103.233986" fill="rgb(196,196,196)" fill-opacity="0" />
+			<circle id="Ellipse 20" cx="231.727631" cy="168.603851" r="102.733986" stroke="rgb(98,70,229)" stroke-width="1.000000" />
+			<circle id="Ellipse 21" cx="225.655197" cy="160.709396" r="112.950119" fill="rgb(196,196,196)" fill-opacity="0" />
+			<circle id="Ellipse 21" cx="225.655197" cy="160.709396" r="112.450119" stroke="rgb(98,70,229)" stroke-width="1.000000" />
+			<circle id="Ellipse 22" cx="219.582855" cy="149.171478" r="121.451744" fill="rgb(196,196,196)" fill-opacity="0" />
+			<circle id="Ellipse 22" cx="219.582855" cy="149.171478" r="120.951744" stroke="rgb(98,70,229)" stroke-width="1.000000" />
+			<circle id="Ellipse 23" cx="213.813797" cy="137.937332" r="129.649734" fill="rgb(196,196,196)" fill-opacity="0" />
+			<circle id="Ellipse 23" cx="213.813797" cy="137.937332" r="129.149734" stroke="rgb(98,70,229)" stroke-width="1.000000" />
+			<circle id="Ellipse 24" cx="204.097977" cy="125.184891" r="142.402176" fill="rgb(196,196,196)" fill-opacity="0" />
+			<circle id="Ellipse 24" cx="204.097977" cy="125.184891" r="141.902176" stroke="rgb(98,70,229)" stroke-width="1.000000" />
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,33 @@
+<svg viewBox="0 0 480 361" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="480.000000" height="361.000000" fill="none" customFrame="#000000">
+	<mask id="mask_0" width="361.000000" height="480.000000" x="0.000000" y="0.000000" maskUnits="objectBoundingBox">
+		<g filter="url(#pixso_custom_mask_type_alpha)">
+			<rect id="Rectangle 154" width="361.000000" height="480.000000" x="0.000000" y="0.000000" fill="url(#paint_linear_3)" transform="matrix(-4.37114e-08,1,-1,-4.37114e-08,480,0)" />
+			<rect id="Rectangle 154" width="360.000000" height="479.000000" x="0.500000" y="0.500000" stroke="rgb(98,70,229)" stroke-width="1.000000" transform="matrix(-4.37114e-08,1,-1,-4.37114e-08,480,0)" />
+		</g>
+	</mask>
+	<defs>
+		<linearGradient id="paint_linear_3" x1="256.035339" x2="7.70440674" y1="13.4669399" y2="484.065613" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(116,125,239)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(94,59,225)" offset="1" stop-opacity="1" />
+		</linearGradient>
+		<filter id="pixso_custom_mask_type_alpha">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+		</filter>
+	</defs>
+	<g id="Mask Group" opacity="0.100000001" mask="url(#mask_0)">
+		<g id="Group 42">
+			<ellipse id="Ellipse 19" rx="126.217819" ry="126.039436" cx="126.217819" cy="126.039436" fill="rgb(196,196,196)" fill-opacity="0" transform="matrix(-4.37114e-08,1,-1,-4.37114e-08,362.545,201.984)" />
+			<ellipse id="Ellipse 19" rx="125.717819" ry="125.539436" cx="126.217819" cy="126.039436" stroke="rgb(98,70,229)" stroke-width="1.000000" transform="matrix(-4.37114e-08,1,-1,-4.37114e-08,362.545,201.984)" />
+			<ellipse id="Ellipse 20" rx="141.164658" ry="140.965149" cx="141.164658" cy="140.965149" fill="rgb(196,196,196)" fill-opacity="0" transform="matrix(-4.37114e-08,1,-1,-4.37114e-08,390.738,177.073)" />
+			<ellipse id="Ellipse 20" rx="140.664658" ry="140.465149" cx="141.164658" cy="140.965149" stroke="rgb(98,70,229)" stroke-width="1.000000" transform="matrix(-4.37114e-08,1,-1,-4.37114e-08,390.738,177.073)" />
+			<ellipse id="Ellipse 21" rx="154.450729" ry="154.232452" cx="154.450729" cy="154.232452" fill="rgb(196,196,196)" fill-opacity="0" transform="matrix(-4.37114e-08,1,-1,-4.37114e-08,414.785,155.483)" />
+			<ellipse id="Ellipse 21" rx="153.950729" ry="153.732452" cx="154.450729" cy="154.232452" stroke="rgb(98,70,229)" stroke-width="1.000000" transform="matrix(-4.37114e-08,1,-1,-4.37114e-08,414.785,155.483)" />
+			<ellipse id="Ellipse 22" rx="166.076065" ry="165.841354" cx="166.076065" cy="165.841354" fill="rgb(196,196,196)" fill-opacity="0" transform="matrix(-4.37114e-08,1,-1,-4.37114e-08,442.149,135.554)" />
+			<ellipse id="Ellipse 22" rx="165.576065" ry="165.341354" cx="166.076065" cy="165.841354" stroke="rgb(98,70,229)" stroke-width="1.000000" transform="matrix(-4.37114e-08,1,-1,-4.37114e-08,442.149,135.554)" />
+			<ellipse id="Ellipse 23" rx="177.286194" ry="177.035645" cx="177.286194" cy="177.035645" fill="rgb(196,196,196)" fill-opacity="0" transform="matrix(-4.37114e-08,1,-1,-4.37114e-08,468.683,116.455)" />
+			<ellipse id="Ellipse 23" rx="176.786194" ry="176.535645" cx="177.286194" cy="177.035645" stroke="rgb(98,70,229)" stroke-width="1.000000" transform="matrix(-4.37114e-08,1,-1,-4.37114e-08,468.683,116.455)" />
+			<ellipse id="Ellipse 24" rx="194.724182" ry="194.448975" cx="194.724182" cy="194.448975" fill="rgb(196,196,196)" fill-opacity="0" transform="matrix(-4.37114e-08,1,-1,-4.37114e-08,503.51,85.7314)" />
+			<ellipse id="Ellipse 24" rx="194.224182" ry="193.948975" cx="194.724182" cy="194.448975" stroke="rgb(98,70,229)" stroke-width="1.000000" transform="matrix(-4.37114e-08,1,-1,-4.37114e-08,503.51,85.7314)" />
+		</g>
+	</g>
+</svg>

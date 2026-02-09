@@ -1,9 +1,9 @@
 .testimonials {
     padding-bottom: 12.5rem;
     &__inner {
-        max-width: calc(73rem + 0.625rem * 2);
+        max-width: calc(73rem + 1.5rem * 2);
         margin-inline: auto;
-        padding-inline: 0.625rem;
+        padding-inline: 1.5rem;
         
         display: flex;
         gap: 5.4375rem;
