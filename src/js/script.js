@@ -55,4 +55,17 @@ document.addEventListener('DOMContentLoaded', () => {
         },
     });
     // swiper
+
+    // footer menu
+    const footerMenuLinks = document.querySelectorAll('.footer__menu-link');
+    
+    footerMenuLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            const footerMenuSublist = link.nextElementSibling;
+            footerMenuSublist.classList.toggle('footer__menu-sublist--active'); 
+            link.classList.toggle('footer__menu-link--active');
+        });
+    });
+    // footer menu
+
 });
